@@ -48,3 +48,12 @@ form button {
 form button:hover {
   background-color: #0056b3;
 }
+
+.error {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 15px;
+}

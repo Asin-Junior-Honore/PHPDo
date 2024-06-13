@@ -2,7 +2,7 @@
 // db.php
 
 $host = 'localhost'; // Replace with your host name
-$dbname = 'phpdo';
+$dbname = 'myfirstdatabase';
 $username = 'root'; // Replace with your database username
 $password = ''; // Replace with your database password
 
