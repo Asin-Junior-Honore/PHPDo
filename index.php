@@ -25,10 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (empty($errors)) {
             addTodo($title, $description);
 
-            // Clear inputs after successful addition
+
             $title = $description = '';
 
-            // Redirect to prevent form resubmission on refresh
+
             header("Location: {$_SERVER['REQUEST_URI']}");
             exit();
         }

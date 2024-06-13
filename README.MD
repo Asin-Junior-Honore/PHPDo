@@ -1,5 +1,3 @@
-
-
 # PHPDo 📝
 
 PHPDo is a simple TODO list application built using PHP and MySQL, designed to help you manage your tasks effectively.
@@ -55,4 +53,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by the need for a simple yet effective task management system.
 - Built with ❤️ by [Your Name](https://github.com/Asin-Junior-Honore).
-
