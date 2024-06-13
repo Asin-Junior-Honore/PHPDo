@@ -1,5 +1,5 @@
 <?php
-// db.php
+
 
 $host = 'localhost'; // Replace with your host name
 $dbname = 'myfirstdatabase';

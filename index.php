@@ -1,6 +1,5 @@
 <?php
 
-
 include 'todo.php';
 
 // Initialize variables for form inputs and errors
@@ -25,17 +24,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // If no errors, add TODO item
         if (empty($errors)) {
             addTodo($title, $description);
+
             // Clear inputs after successful addition
             $title = $description = '';
+
+            // Redirect to prevent form resubmission on refresh
+            header("Location: {$_SERVER['REQUEST_URI']}");
+            exit();
         }
     } elseif (isset($_POST['delete'])) {
         $id = $_POST['delete'];
         deleteTodo($id);
+
+        // Redirect after delete to avoid resubmitting delete action on refresh
+        header("Location: {$_SERVER['REQUEST_URI']}");
+        exit();
     } elseif (isset($_POST['update'])) {
         $id = $_POST['update'];
         $title = $_POST['title'];
         $description = $_POST['description'];
         updateTodo($id, $title, $description);
+
+        // Redirect after update to avoid resubmitting update action on refresh
+        header("Location: {$_SERVER['REQUEST_URI']}");
+        exit();
     }
 }
 
