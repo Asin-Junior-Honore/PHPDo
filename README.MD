@@ -1,6 +1,4 @@
-Absolutely! Let's create a README file that includes a detailed description of the PHPDo project along with some emojis to make it more engaging.
 
----
 
 # PHPDo 📝
 
@@ -56,8 +54,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments 🙏
 
 - Inspired by the need for a simple yet effective task management system.
-- Built with ❤️ by [Your Name](https://github.com/you).
+- Built with ❤️ by [Your Name](https://github.com/Asin-Junior-Honore).
 
----
-
-Feel free to customize this README further with additional details, screenshots, or any specific instructions you find useful. Happy coding with PHPDo! 🚀
