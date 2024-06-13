@@ -45,8 +45,9 @@ PHPDo is a simple TODO list application built using PHP and MySQL, designed to h
 
 Contributions are welcome! Please fork the repository and create a pull request with your improvements.
 
-
 ## Acknowledgments 🙏
 
 - Inspired by the need for a simple yet effective task management system.
 - Built with ❤️ by [Your Name](https://github.com/Asin-Junior-Honore).
+
+Happy coding you All✌️
