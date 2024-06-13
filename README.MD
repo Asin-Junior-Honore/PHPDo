@@ -45,9 +45,6 @@ PHPDo is a simple TODO list application built using PHP and MySQL, designed to h
 
 Contributions are welcome! Please fork the repository and create a pull request with your improvements.
 
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments 🙏
 
